@@ -27,10 +27,12 @@ In its original state, the amount of data that needs to be processed in each ima
 After PCA was conducted, various classification methods were investigated. The classification of the data was split into two parts: binary classification and multiple classification. In addition to the 400 pictures of faces, 90 additional pictures of “nonfaces” were added to the data set. The goal of binary classification was to distinguish between '"face images" and "nonface images"". Once again, the goal was to use a greater ratio of variance with fewer principal components, determining whether the pictures depicted "faces" or “nonfaces.” The K-Nearest Neighbors or KNN binary classification method was utilized. The data was first split into 5 stratified K-folds, splitting the folds into training data and test data. The training data was used to predict the values of the test data, and the accuracy and precision of the predicted values was then taken and analyzed to aid in a 10-NN classification of the data, predicting the value of a data point based on the 10 nearest labeled data values. It can be noted that another binary classification function was used – the random forest method, which uses a series of decision tree classifications to predict data values. The random forest method yielded similar results compared to the K-NN classification method. In addition to the binary classification, multiple classification was needed to distinguish between the 40 different people among the 400 facial images. The same process was used, implementing a 10-NN classification of the data and analyzing the accuracy using the PCA percentages. 
 
 ## Technologies
--![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  
--![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)  
--![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)  
--![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)  
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  
+- ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)  
+- ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)  
+- ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)  
 
+---
+*Made with <3 by Arnav, circa 2022*
 
 
